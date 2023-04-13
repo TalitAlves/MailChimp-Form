@@ -87,3 +87,9 @@ input#checkbox{
     font-size: 14px;
 }
 
+footer{
+    font-size: 14px;
+    margin: 10px;
+    text-align: right;
+    color:darkslategrey
+}
