@@ -1,0 +1,89 @@
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+img{
+    width: 170px;
+    padding: 40px;
+}
+
+div.right-column{
+    width: 450px;
+    line-height: 20px;
+    font-size: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: #4097A1
+}
+
+form > label{
+    display: block;
+    padding: 10px 0px;
+    font-weight: bold;
+}
+
+form > input{
+    width: 100%;
+    height: 30px;
+    border-radius: 2px;
+    border: 1px solid grey;
+    opacity: 50%;
+}
+
+ul{
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: flex;
+    height: 12vh;
+    align-content: stretch;
+    padding: 0 10px;
+}
+
+ul li{
+    flex: 0 26%;
+    font-size: 14px;
+    
+}
+
+li::marker{
+    color: #4097A1
+}
+
+.signup-section{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+
+}
+
+input#submit{
+    border-radius: 5px;
+    width: 100px;
+    padding: 10px 30px;
+    opacity: 50%;
+    border: 1px solid grey;
+    margin-right: 10px;
+}
+
+input#checkbox{
+    border: 1px solid grey;
+    margin: -20px 10px;
+    color: black
+    
+}
+
+
+
+.signup-section label{
+    width: 55%;
+    font-size: 14px;
+}
+
+.terms-use{
+    margin-top: 30px;
+    font-size: 14px;
+}
+
